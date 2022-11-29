@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "487419474179",
+    "project_id": "netflit-9b39a",
+    "storage_bucket": "netflit-9b39a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487419474179:android:fe8fdb7061b01d677bb936",
+        "android_client_info": {
+          "package_name": "com.oajstudios.netflit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487419474179-5n95p2kukgn8bdskgrv839o32drlf05m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8miU8GzTCemniz7JPW2jI0UsQ_HOVwNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487419474179-5n95p2kukgn8bdskgrv839o32drlf05m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

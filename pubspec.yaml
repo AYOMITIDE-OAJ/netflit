@@ -1,0 +1,102 @@
+name: streamit_flutter
+description: A Netlfix Clone
+version: 4.6.3+21
+
+environment:
+  sdk: '>=2.17.0 <=3.3.8'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Required
+  cupertino_icons: ^1.0.5
+  intl: ^0.17.0
+  nb_utils: ^4.6.21
+  package_info: ^2.0.2
+  cached_network_image: ^3.2.1
+  flutter_vector_icons: ^2.0.0
+
+  # Html
+  html: 0.15.0
+  flutter_widget_from_html: ^0.8.5
+
+  # Voice Search
+  speech_to_text: ^6.0.0
+
+  # API call
+  http: ^0.13.5
+
+  # State Management
+  mobx: ^2.1.0
+  flutter_mobx: ^2.0.6+4
+
+  # Font
+  google_fonts: ^3.0.1
+
+  # Launch url
+  url_launcher: ^6.1.5
+
+  # Rating
+  flutter_rating_bar: ^4.0.1
+
+  # Ads
+  google_mobile_ads: ^2.0.1
+
+  # Notification
+  onesignal_flutter: ^3.4.1
+
+  # Image selection
+  image_picker: ^0.8.5+3
+
+  # Video player
+  youtube_player_flutter: ^8.1.0
+  better_player: ^0.0.83
+
+  change_app_package_name: ^1.1.0
+
+  # Web-views
+  webview_flutter: ^3.0.4
+  flutter_custom_tabs: ^1.0.4
+
+  # Animation
+  lottie: ^1.4.2
+
+  # File Download
+  internet_file: ^1.2.0
+  permission_handler: ^10.0.0
+  device_info_plus: ^4.1.2
+
+  # Local storage path
+  path_provider: ^2.0.11
+
+  # Text
+  auto_size_text: ^3.0.0
+
+  # Firebase remote config
+  firebase_core: 2.3.0
+  firebase_remote_config: 3.0.6
+
+  flutter_localizations:
+    sdk: flutter
+  connectivity_plus_web: ^1.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen: ^2.0.7+3
+  build_runner: ^2.2.1
+  #flutter packages pub run build_runner build
+
+dependency_overrides:
+  video_player: 2.4.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/lottie/
+    - assets/gif/
+    - assets/images/
+    - assets/images/flag/
